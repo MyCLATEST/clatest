@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<animation effect="fade" time="400">WindowOpen</animation>
+	<animation effect="fade" time="400">WindowClose</animation>
+	<defaultcontrol>42001</defaultcontrol>
+	<controls>
+		<control type="group">
+			<description>Upbutton</description>
+			<left>1400</left>
+			<top>0</top>
+			<width>520</width>
+			<height>100</height>
+			<visible>true</visible>
+			<control type="button" id="40001">
+				<description>Upbutton</description>
+				<visible>true</visible>
+				<label>Up</label>
+				<font>font12</font>
+				<align>center</align>
+				<aligny>center</aligny>
+				<pulseonselect></pulseonselect>
+				<onfocus></onfocus>
+				<onunfocus></onunfocus>
+				<onup>42001</onup>
+				<ondown>41001</ondown>
+			</control>			
+		</control>
+		<control type="group">
+			<description>entries</description>
+			<left>1400</left>
+			<width>520</width>
+			<height>176</height>
+			<visible>true</visible>
+			<control type="button" id="41001">
+				<description>Entry</description>
+				<top>100</top>
+				<visible>true</visible>
+				<label>Up</label>
+				<font>font12</font>
+				<align>center</align>
+				<aligny>center</aligny>
+				<pulseonselect></pulseonselect>
+				<wrapmultiline>true</wrapmultiline>
+				<onfocus></onfocus>
+				<onunfocus></onunfocus>
+				<onup>40001</onup>
+				<ondown>41002</ondown>
+			</control>
+			<control type="button" id="41002">
+				<description>Entry</description>
+				<top>276</top>
+				<visible>true</visible>
+				<label>Up</label>
+				<font>font12</font>
+				<align>center</align>
+				<aligny>center</aligny>
+				<pulseonselect></pulseonselect>
+				<wrapmultiline>true</wrapmultiline>
+				<onfocus></onfocus>
+				<onunfocus></onunfocus>
+				<onup>41001</onup>
+				<ondown>41003</ondown>
+			</control>
+			<control type="button" id="41003">
+				<description>Entry</description>
+				<top>452</top>
+				<visible>true</visible>
+				<label>Up</label>
+				<font>font12</font>
+				<align>center</align>
+				<aligny>center</aligny>
+				<pulseonselect></pulseonselect>
+				<wrapmultiline>true</wrapmultiline>
+				<onfocus></onfocus>
+				<onunfocus></onunfocus>
+				<onup>41002</onup>
+				<ondown>41004</ondown>
+			</control>
+			<control type="button" id="41004">
+				<description>Entry</description>
+				<top>628</top>
+				<visible>true</visible>
+				<label>Up</label>
+				<font>font12</font>
+				<align>center</align>
+				<aligny>center</aligny>
+				<pulseonselect></pulseonselect>
+				<wrapmultiline>true</wrapmultiline>
+				<onfocus></onfocus>
+				<onunfocus></onunfocus>
+				<onup>41003</onup>
+				<ondown>41005</ondown>
+			</control>
+			<control type="button" id="41005">
+				<description>Entry</description>
+				<top>804</top>
+				<visible>true</visible>
+				<label>Up</label>
+				<font>font12</font>
+				<align>center</align>
+				<aligny>center</aligny>
+				<pulseonselect></pulseonselect>
+				<wrapmultiline>true</wrapmultiline>
+				<onfocus></onfocus>
+				<onunfocus></onunfocus>
+				<onup>41004</onup>
+				<ondown>42001</ondown>
+			</control>
+		</control>
+		<control type="group">
+			<description>downbutton</description>
+			<left>1400</left>
+			<top>980</top>
+			<width>520</width>
+			<height>100</height>
+			<visible>true</visible>
+			<control type="button" id="42001">
+				<description>downbutton</description>
+				<visible>true</visible>
+				<label>Down</label>
+				<font>font12</font>
+				<align>center</align>
+				<aligny>center</aligny>
+				<pulseonselect></pulseonselect>
+				<onfocus></onfocus>
+				<onunfocus></onunfocus>
+				<onup>41005</onup>
+				<ondown>40001</ondown>
+			</control>			
+		</control>
+		
+	</controls>
+</window>
+
